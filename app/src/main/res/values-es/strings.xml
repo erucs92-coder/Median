@@ -1,3 +1,165 @@
 <resources>
+    <!-- Nombre de la aplicación -->
     <string name="app_name">Navegador Median</string>
+    
+    <!-- Acciones principales -->
+    <string name="action_new_tab">Nueva pestaña</string>
+    <string name="action_close_tab">Cerrar pestaña</string>
+    <string name="action_close_all_tabs">Cerrar todas las pestañas</string>
+    <string name="action_back">Atrás</string>
+    <string name="action_forward">Adelante</string>
+    <string name="action_refresh">Actualizar</string>
+    <string name="action_stop">Detener</string>
+    <string name="action_home">Inicio</string>
+    <string name="action_settings">Configuración</string>
+    <string name="action_search">Buscar</string>
+    <string name="action_share">Compartir</string>
+    <string name="action_print">Imprimir</string>
+    <string name="action_save">Guardar</string>
+    <string name="action_delete">Eliminar</string>
+    <string name="action_exit">Salir</string>
+    
+    <!-- Menú -->
+    <string name="menu_file">Archivo</string>
+    <string name="menu_edit">Editar</string>
+    <string name="menu_view">Ver</string>
+    <string name="menu_history">Historial</string>
+    <string name="menu_bookmarks">Marcadores</string>
+    <string name="menu_tools">Herramientas</string>
+    <string name="menu_help">Ayuda</string>
+    
+    <!-- Favoritos/Marcadores -->
+    <string name="bookmarks">Marcadores</string>
+    <string name="add_bookmark">Añadir marcador</string>
+    <string name="edit_bookmark">Editar marcador</string>
+    <string name="delete_bookmark">Eliminar marcador</string>
+    <string name="bookmark_name">Nombre del marcador</string>
+    <string name="bookmark_url">URL del marcador</string>
+    
+    <!-- Historial -->
+    <string name="history">Historial</string>
+    <string name="clear_history">Limpiar historial</string>
+    <string name="recent_history">Historial reciente</string>
+    <string name="history_cleared">Historial eliminado</string>
+    
+    <!-- Descargas -->
+    <string name="downloads">Descargas</string>
+    <string name="download_started">Descarga iniciada</string>
+    <string name="download_completed">Descarga completada</string>
+    <string name="download_failed">Error en la descarga</string>
+    <string name="clear_downloads">Limpiar descargas</string>
+    
+    <!-- Búsqueda -->
+    <string name="search_engine">Motor de búsqueda</string>
+    <string name="search_in_page">Buscar en página</string>
+    <string name="search_results">Resultados de búsqueda</string>
+    <string name="no_results">Sin resultados</string>
+    
+    <!-- Configuración -->
+    <string name="settings_general">General</string>
+    <string name="settings_privacy">Privacidad y seguridad</string>
+    <string name="settings_appearance">Apariencia</string>
+    <string name="settings_advanced">Avanzada</string>
+    <string name="settings_about">Acerca de</string>
+    <string name="default_search_engine">Motor de búsqueda predeterminado</string>
+    <string name="homepage">Página de inicio</string>
+    <string name="javascript_enabled">JavaScript habilitado</string>
+    <string name="cookies_enabled">Cookies habilitadas</string>
+    <string name="cache">Caché</string>
+    <string name="clear_cache">Limpiar caché</string>
+    <string name="clear_cookies">Limpiar cookies</string>
+    <string name="language">Idioma</string>
+    <string name="theme">Tema</string>
+    <string name="dark_mode">Modo oscuro</string>
+    <string name="light_mode">Modo claro</string>
+    <string name="font_size">Tamaño de fuente</string>
+    
+    <!-- Errores -->
+    <string name="error_loading_page">Error al cargar la página</string>
+    <string name="error_invalid_url">URL inválida</string>
+    <string name="error_no_internet">Sin conexión a Internet</string>
+    <string name="error_timeout">Se agotó el tiempo de espera</string>
+    <string name="error_server_not_found">Servidor no encontrado</string>
+    <string name="error_connection_refused">Conexión rechazada</string>
+    <string name="error_certificate">Error de certificado de seguridad</string>
+    <string name="try_again">Reintentar</string>
+    
+    <!-- Direcciones URL y navegación -->
+    <string name="address_bar_hint">Escribe una URL o busca</string>
+    <string name="url">URL</string>
+    <string name="loading">Cargando…</string>
+    <string name="page_title">Título de página</string>
+    
+    <!-- Seguridad y privacidad -->
+    <string name="secure_connection">Conexión segura</string>
+    <string name="not_secure">No es seguro</string>
+    <string name="certificate_info">Información del certificado</string>
+    <string name="privacy_mode">Modo privado</string>
+    <string name="do_not_track">No rastrear</string>
+    <string name="block_popups">Bloquear ventanas emergentes</string>
+    <string name="block_ads">Bloquear anuncios</string>
+    
+    <!-- Credenciales y autenticación -->
+    <string name="username">Nombre de usuario</string>
+    <string name="password">Contraseña</string>
+    <string name="login">Iniciar sesión</string>
+    <string name="logout">Cerrar sesión</string>
+    <string name="remember_password">Recordar contraseña</string>
+    <string name="saved_passwords">Contraseñas guardadas</string>
+    
+    <!-- Diálogos y confirmaciones -->
+    <string name="confirm">Confirmar</string>
+    <string name="cancel">Cancelar</string>
+    <string name="ok">Aceptar</string>
+    <string name="yes">Sí</string>
+    <string name="no">No</string>
+    <string name="close">Cerrar</string>
+    <string name="apply">Aplicar</string>
+    <string name="done">Listo</string>
+    <string name="continue_text">Continuar</string>
+    <string name="warning">Advertencia</string>
+    <string name="error">Error</string>
+    <string name="success">Éxito</string>
+    <string name="info">Información</string>
+    
+    <!-- Pestañas -->
+    <string name="tab">Pestaña</string>
+    <string name="tabs">Pestañas</string>
+    <string name="new_tab">Nueva pestaña</string>
+    <string name="tab_opened">Pestaña abierta</string>
+    <string name="tab_closed">Pestaña cerrada</string>
+    
+    <!-- Zoom -->
+    <string name="zoom_in">Ampliar</string>
+    <string name="zoom_out">Reducir</string>
+    <string name="reset_zoom">Restablecer zoom</string>
+    
+    <!-- Fuentes y lectura -->
+    <string name="reader_mode">Modo lectura</string>
+    <string name="text_encoding">Codificación de texto</string>
+    
+    <!-- Contactos y ayuda -->
+    <string name="help">Ayuda</string>
+    <string name="about_app">Acerca de Navegador Median</string>
+    <string name="version">Versión</string>
+    <string name="feedback">Enviar comentarios</string>
+    <string name="report_bug">Reportar un error</string>
+    <string name="contact_support">Contactar soporte</string>
+    
+    <!-- Mensajes generales -->
+    <string name="loading_in_progress">Cargando…</string>
+    <string name="please_wait">Por favor espera…</string>
+    <string name="operation_completed">Operación completada</string>
+    <string name="operation_failed">Operación fallida</string>
+    <string name="saved_successfully">Guardado correctamente</string>
+    <string name="deleted_successfully">Eliminado correctamente</string>
+    
+    <!-- Notificaciones -->
+    <string name="notification_download">Descargando archivo</string>
+    <string name="notification_update">Actualización disponible</string>
+    
+    <!-- Accesibilidad -->
+    <string name="accessibility_settings">Configuración de accesibilidad</string>
+    <string name="text_to_speech">Texto a voz</string>
+    <string name="high_contrast">Alto contraste</string>
 </resources>
